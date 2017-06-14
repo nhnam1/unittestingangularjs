@@ -14,8 +14,7 @@ Install NodeJS, Bower, AngularJS, Karma, Jasmine, PhantomJS
 
 	$ npm install angular --save
 
-4. Install and Config Karma, Jasmine, PhantomJS:
-	Install Karma & Phantom with npm:
+4. Install Karma & Phantom with npm:
 	
 		$ npm install karma-cli phantomjs -g
 		
@@ -27,19 +26,17 @@ Install NodeJS, Bower, AngularJS, Karma, Jasmine, PhantomJS
 	
 		$ phantomjs --version
 		
-	Install Jasmine with npm
+5. Install Jasmine with npm
 	
 		$ bower install karma jasmine --save-dev
 		
-	Install angular-mocks
+6. Install angular-mocks
 	
 		$ bower install angular --save-dev
-		
 	Move to karma.conf.js to config some details:
 	
 		$ karma init
-		
-       To start karma:
+	To start karma:
        
 		$ karma start karma.conf.js
 
