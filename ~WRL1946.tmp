@@ -1,0 +1,31 @@
+# unittestingangularjs
+
+AngularJS Unit Test
+Karma
+Jasmine
+PhantomJS
+
+Install AngularJS Unit Test
+
+* nodejs
+* bower (using npm)
+
+- npm init
+- npm install bower --save-dev (install bower)
+> app folder to install AngularJS
+- bower init -> (config some default)
+- bower install angular --save
+* set up karma, jasmine, phantomjs (root)
+- npm install karma-cli phantomjs –g
+- karma --version (check karma version)
+- phantomjs --version (check phantomjs version)
+- npm install karma jasmine --save-dev
+       cd app
+> bower install angular-mocks --save-dev
+
+cd js/test
+> karma init (config karma)
+config list of file karma.conf.js
+> karma start karma.conf.js
+
+
